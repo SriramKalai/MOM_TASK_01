@@ -1,0 +1,202 @@
+body{
+    margin: 0;
+} 
+.Hero {
+    background-image: url("Images/Hero.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: relative;
+    display: flex;
+    flex-flow: column;    
+}
+
+.bar{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+} 
+
+.home{
+    display: flex;
+    height: 50%;
+    width: 95%;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    
+}
+
+.menu{
+    display: flex;
+    width: auto;
+    height: 40px;  
+    padding-top: 2%;  
+}
+
+.city{
+    display: flex;
+    width: auto;
+    height: 85px;
+}
+
+.cart{
+    display: flex;
+    width: auto;
+    height: 48px;
+    padding-top: 2%;
+}
+.text-over{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+   
+
+}
+
+.spring-content {
+    /* /* width: auto; */
+    height: 7px;
+    /* margin: 168px 38px 18px; */
+    font-family: Didot;
+    font-size: 150px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: normal;
+    letter-spacing: 1.3px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .second-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .collection-here{
+    /* width: auto;
+    height: 10px; */
+    margin-top: 0%;
+    margin-left: 2%;
+    /* margin: 240px 97px 9px 96px; */
+    font-family: Helvetica;
+    font-size: 38px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+
+  }
+  .shop-button{
+    display: flex;
+    justify-content: center;
+  }
+
+  .button {   
+    display: inline;  
+    width: auto;
+    height: 190px;
+  }
+
+  .button-img{
+    width: auto;
+    height: 90px;
+  }
+
+  .Shop-the-collection {
+    width: auto;
+    margin: -15% 15% 0px 0px;
+    font-family: Helvetica;
+    font-size: 34px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+  }
+
+ 
+.jacket-sunglass{
+    display: flex;
+    justify-content: center;
+    /* padding: 10px 0 0 0 ; */
+    flex-direction: column;
+}
+
+.sunglass-content{
+/*     
+    margin: 384px 11px 15px 12px;
+    padding: 146px 80px 19px 79px; */
+    margin: -6% auto;    
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+ }
+
+ .sunglass-img{
+    position: relative;
+    width: auto;
+    height: 600px;
+    border: 6px solid white;
+ }
+.text-Sunglass{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    padding-top: 10vmax;
+    font-family: Helvetica;
+    font-size: 65px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+.text-shop{
+    display: flex;
+    position: absolute;
+    margin: 23vmax 10% 0 0;
+    font-family: Helvetica;
+    font-size: 45px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+ .jacket-content{
+        margin: 7% auto;
+        display: flex;
+        justify-content: center; 
+        align-items: center;    
+     }
+
+ .jacket-img{
+    position: relative;
+    width: auto;
+    height: 600px;
+    border: 6px solid white;
+ }
+
