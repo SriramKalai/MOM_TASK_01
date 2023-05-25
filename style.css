@@ -334,7 +334,17 @@ body{
     flex-direction: column;
     margin-bottom: -70px;
 }
-.img-product{
+.img-product-1{
+    width: 100%;
+    height: 80%;
+    margin: 48px 0 11px;
+}
+.img-product-2{
+    width: 100%;
+    height: 80%;
+    margin: 48px 0 11px;
+}
+.img-product-3{
     width: 100%;
     height: 80%;
     margin: 48px 0 11px;
@@ -447,7 +457,7 @@ body{
 .footer{
     width: 97%;
     height: 100%;
-    margin: 33% 0 0;
+    margin: 27% 0 0;
     padding: 32px 18px 44px 19px;
     background-color: #f6f6f6;
 }
@@ -772,7 +782,7 @@ span {
         background-image: url("Images/Hero.png");
         background-size: cover;
         background-repeat: no-repeat;
-        height: 90%;
+        height: 99%;
         object-fit:cover;
         background-position:center;
    
@@ -827,8 +837,8 @@ span {
       }
     
       .button-img{
-        width: 210px;
-        height: 40px;
+        width: 280px;
+        height: 50px;
         margin-top: 0;
         padding-right: 30px;
         margin-left: 70px;
@@ -836,7 +846,7 @@ span {
     
       .Shop-the-collection {    
         margin: -11% 20% 0px 70px;
-        font-size: 16px;
+        font-size: 20px;
       }
 
 
@@ -848,61 +858,150 @@ span {
     
     
      .sunglass-img{
-        width:425px;
-        height: 275px;
+        width:650px;
+        height: 424px;
         border: 0px;        
      }
 
      .jacket-img{
-        margin-top: -9%;
-        width:425px;
-        height: 275px;    
+        margin-top: -8%;
+        width:650px;
+        height: 424px;    
         border: 0px;  
      }
 
      .text-Sunglass{
         margin-top: -70px;
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .sunglass-shopbutton{  
-        margin-top:180px;
-        width: 180px;
+        margin-top:270px;
+        width: 220px;
         height: 44px;
     }
 
     .text-shop{
-        margin: 175px 30px 0 0px;
-        font-size: 18px;
+        margin: 265px 40px 0 0px;
+        font-size:22px;
     }
 
     .text-jacket{
-        margin-top: 30px;
+        margin-top: 50px;
         padding-top: 0%;
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .jacket-shopbutton{   
-        margin-top: 150px;
-        width: 180px;
+        margin-top: 220px;
+        width: 220px;
         height: 44px;
        
     }
 
     .text-shop-1{        
-        margin: 147px 35px 0 0;        
-        font-size: 18px;   
+        margin: 215px 35px 0 0;        
+        font-size: 22px;   
      }
 
      .Featured-Products{
         margin-top: 5.6%;
-        padding-left: 145px;
+        padding-left: 85px;
         font-size: 25px;
       }
 
       .Line {
-        width: 870px;
+        width: 1300px;
         margin-top: -30px;
+      }
+
+      .Products-margin{
+        grid-template-columns: 230px 1fr 230px;
+    }
+
+    .Products{
+        margin-top: 35px;
+        margin-bottom: 40px;
+        display: grid;
+        height: 100%;
+        grid-gap: 5px;
+        justify-content: center;
+        /* align-items: center; */
+        grid-template-columns:repeat(3,360px);
+        grid-template-rows: repeat(2,250px);
+        grid-template-areas: "b b j"
+                             "b b s";
+    }
+
+
+    #card1{
+        background-color: #000;
+        grid-area: b;
+        /* display:flex ; */
+    }
+    
+    #card2{
+        background-color: aqua;
+        margin-top: 0;
+        /* grid-column: 3/4;
+        grid-row: 1/2; */
+        grid-area: j;
+
+    }
+    #card3{
+        background-color: aquamarine;
+        margin-top: 0;
+        /* grid-column: 3/-4;
+        grid-row: 2/3; */
+        grid-area: s;
+    }
+    
+    .card{
+        display: flex;
+        /* flex-direction: column; */
+        margin-bottom: -70px;
+        /* margin-left: 340px; */
+    }
+    .img-product-1{
+        width: 66%;
+        height: 100%;
+        /* margin: 48px 0 11px; */
+        
+    }
+    .img-product-2{
+        width: 33%;
+        height: 50%;
+        /* margin: 48px 0 11px; */
+    }
+    .img-product-3{
+        width: 33%;
+        height: 50%;
+        /* margin: 48px 0 11px; */
+    }
+    
+
+
+
+    /* Footer */
+
+    .footer{
+        grid-template-columns: 150px 1fr 150px;
+    }
+
+    .We-love-speaking-to {     
+        font-size: 33px;
+        height: 20px;
+      }
+
+    .email-detail{
+        margin-top: 0px;
+        justify-content: space-evenly;
+    }
+
+    .shopifypartners {
+        margin: 34px 51px 22px 27px;   
+        font-size: 18px;
+       
       }
    
   }
