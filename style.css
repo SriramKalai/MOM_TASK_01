@@ -1,12 +1,13 @@
 body{
     margin: 0;
+    /* background-color: black; */
 } 
 .Hero {
-    background-image: url("Images/Hero.png");
+    background-image: url("Images/hero_back.png");
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 1100px;
+    width: 100.9%;
+    height: 1120px;
     object-fit:cover;
     background-position: center;
     position: relative;
@@ -32,27 +33,28 @@ body{
 .menu{
     display: flex;
     width: auto;
-    height: 40px;  
+    height: 45px;  
     padding-top: 2%;  
 }
 
 .city{
     display: flex;
     width: auto;
-    height: 85px;
+    height: 105px;
 }
 
 .cart{
     display: flex;
     width: auto;
-    height: 48px;
+    height: 54px;
     padding-top: 2%;
+    padding-right: 1%;
 }
 .text-over{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: 17%;
+    margin-top: 16.5%;
     margin-bottom: 20px;
 
 }
@@ -71,7 +73,7 @@ body{
     height: 7px;
     /* margin: 168px 38px 18px; */
     font-family: Didot;
-    font-size: 200px;
+    font-size: 220px;
     font-weight: normal;
     font-stretch: normal;
     font-style: italic;
@@ -90,11 +92,11 @@ body{
   .collection-here{
     /* width: auto;
     height: 10px; */
-    margin-top: 0%;
+    margin-top: -4%;
     margin-left: 2%;
     /* margin: 240px 97px 9px 96px; */
     font-family: Helvetica;
-    font-size: 48px;
+    font-size: 50px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -113,20 +115,22 @@ body{
     display: inline;  
     width: auto;
     height: 190px;
+    
   }
 
   .button-img{
-    width: 550px;
-    height: 100px;
-    margin-top: -2%;
+    width: 570px;
+    height: 110px;
+    margin-top: -3%;
     padding-right: 30px;
+    margin-left: 10px;
   }
 
   .Shop-the-collection {
     width: auto;
-    margin: -13% 20% 0px 0px;
+    margin: -13.5% 20% 0px 0px;
     font-family: Helvetica;
-    font-size: 34px;
+    font-size: 38px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -142,7 +146,7 @@ body{
     justify-content: center;
     /* padding: 10px 0 0 0 ; */
     flex-direction: column;
-    margin-top: -10%;
+    margin-top: -8.5%;
     /* flex-wrap: wrap; */
 }
 
@@ -172,18 +176,35 @@ body{
  .sunglass-img{
     position: relative;
     width:100%;
-    height: 650px;
+    height: 670px;
     border: 6px solid white;
     
  }
 .text-Sunglass{
-    margin-top: 65px;
+    margin-top: 79px;
     display: flex;
     justify-content: center;
     position: absolute;
-    padding-top: 10vmax;
+    padding-top: 12%;
     font-family: Helvetica;
-    font-size: 70px;
+    font-size: 75px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.text-jacket{
+    margin-top: 220px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    padding-top: 12%;
+    font-family: Helvetica;
+    font-size: 75px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -195,7 +216,8 @@ body{
 .text-shop{
     display: flex;
     position: absolute;
-    margin: 445px 100px 0 0;
+    margin: 460px 0px 0 300px;
+    /* width: 98%; */
     /* justify-content: center; */
     align-items: end;
     font-family: Helvetica;
@@ -208,32 +230,46 @@ body{
     /* text-align: center; */
     color: #fff;
 }
+.sunglass-shopbutton{   
+    /* display: flex;  */
+    margin-top: 48%;
+    width: 427px;
+    height: 98px;
+    /* background-color: #000; */
+    /* opacity: 0.5; */
+    position:absolute;
+}
 
-.jacket-shopbutton{    
-    margin-top: -6%;
-    width: 600px;
-    height: 360px;
-    /* position:absolute; */
+.jacket-shopbutton{   
+    /* display: flex;  */
+    margin-top: 65%;
+    width: 440px;
+    height: 100px;
+    /* background-color: #000; */
+    /* opacity: 0.5; */
+    position:absolute;
 }
  .jacket-content{
-        margin-top: 2%;
+        margin-top: 3.5%;
         display: flex;
         justify-content: center; 
         align-items: center;    
      }
 
  .jacket-img{
-    position: relative;
+    /* position: relative; */
     object-fit: sc;
     width:100%;
-    height: 850px;
+    height: 875px;
     border: 6px solid white;
+    background-position:auto;
+    background-size: cover;
+    
  }
 
  .text-shop-1{
-    display: flex;
     position: absolute;
-    margin: 575px 100px 0 0;
+    margin: 139.5% 0px 0 33%;
     /* justify-content: center; */
     align-items: end;
     font-family: Helvetica;
@@ -243,15 +279,16 @@ body{
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
-    /* text-align: center; */
+    /* text-align: end; */
     color: #fff;
 
  }
 
- .Featured-Products {
-    margin-top: 7%;
-    margin-bottom: 7%;
-    margin-left: 0%;
+ .Featured-Products{
+    margin-top: 5.6%;
+    /* margin-left: 4%; */
+    padding-left: 25px;
+    display: grid;
     font-family: Helvetica;
     font-size: 48px;
     font-weight: bold;
@@ -266,12 +303,12 @@ body{
 
 .size-margin{
     display: grid;
-    grid-template-columns: 40px 1fr 40px;
+    grid-template-columns: 20px 1fr 20px;
 }
 
 .Products-margin{
     display: grid;
-    grid-template-columns: 50px 1fr 50px;
+    grid-template-columns: 95px 1fr 95px;
 }
 
 .Products-margin>*{
@@ -285,6 +322,8 @@ body{
 }
 
 .Products{
+    margin-top: 35px;
+    margin-bottom: 40px;
     display: grid;
     height: 100%;
     grid-gap: 5px;
@@ -299,10 +338,12 @@ body{
 }
 
 #card2{
+    margin-top: -1%;
     grid-column: 1/-1;
     grid-row: 10/20;
 }
 #card3{
+    margin-top: 10%;
     grid-column: 1/-1;
     grid-row: 20/30;
 }
@@ -318,11 +359,17 @@ body{
     margin: 48px 0 11px;
 }
 
+.price-flex{
+    display: flex;
+    justify-content: center;
+}
+
 .Bag-7000{
     /* margin: 40px 109px 55px; */
     font-family: Helvetica;
-    /* padding-left: 50%; */
-    font-size: 44px;
+    /* padding-left: 7%; */
+    margin-top: 0;
+    font-size: 40px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -334,14 +381,92 @@ body{
 
 
 
-.Bag-7000.text-style-1 {
+.text-style-1 {
+    font-family: Helvetica;
+    /* padding-left: -10%; */
+    margin-right: -5%;
+    margin-top: 3%;
+    font-size: 40px;
+    /* font-weight: bold; */
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+    font-weight: normal;
+  }
+  .Bag-7000-1{
+    /* margin: 40px 109px 55px; */
+    font-family: Helvetica;
+    /* padding-left: 7%; */
+    margin-top: 3%;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+
+
+.text-style-2 {
+    font-family: Helvetica;
+    /* padding-left: -10%; */
+    margin-right: 8px;
+    margin-top: 3%;
+    font-size: 40px;
+    /* font-weight: bold; */
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+    font-weight: normal;
+  }
+
+
+  .Bag-7000-2{
+    /* margin: 40px 109px 55px; */
+    font-family: Helvetica;
+    /* padding-left: 7%; */
+    margin-top: 0%;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+
+
+.text-style-3 {
+    font-family: Helvetica;
+    /* padding-left: -10%; */
+    margin-right: 8px;
+    margin-top: 3%;
+    font-size: 40px;
+    /* font-weight: bold; */
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
     font-weight: normal;
   }
 
 .footer{
     width: 97%;
     height: 100%;
-    margin: 100px 0 0;
+    margin: 33% 0 0;
     padding: 32px 18px 44px 19px;
     background-color: #f6f6f6;
 }
@@ -361,9 +486,9 @@ body{
 .We-love-speaking-to {    
     width: 100%;
     height: 190px;  
-    margin: 10px 0px 0px 0px;
+    margin: 43px 0px 0px 0px;
     font-family: Helvetica;
-    font-size: 56px;
+    font-size: 51px;
     font-weight: 500;
     font-stretch: normal;
     font-style: normal;
@@ -445,11 +570,12 @@ span {
     border: solid 1px #ccc;
   }
 .footer-menu{
+    /* margin-left: -10pxpx; */
     display: grid;
     grid-template-columns: 1;
     grid-template-rows: 5;
     grid-gap: 80px;
-    margin-top: 100px;
+    margin-top: 105px;
     margin-bottom: 100px;
   }
   .about-us-grid{
@@ -464,7 +590,7 @@ span {
     grid-row: 1/2;
     margin: 0 29px 0px 10px;
     font-family: Helvetica;
-    font-size: 60px;
+    font-size: 48px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -480,7 +606,7 @@ span {
     height: 17px;
     margin: 0px 24px 0px 10px;
     font-family: Helvetica;
-    font-size: 45px;
+    font-size: 38px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -496,7 +622,7 @@ span {
     grid-row: 3/4;
     margin: 0px 11px 0px 10px;
     font-family: Helvetica;
-    font-size: 45px;
+    font-size: 38px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -511,7 +637,7 @@ span {
     height: 17px;
     margin: 0px 96px 0px 10px;
     font-family: Helvetica;
-    font-size: 45px;
+    font-size: 38px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -527,7 +653,7 @@ span {
     height: 17px;
     margin: 0px 34px 0px 10px;
     font-family: Helvetica;
-    font-size: 45px;
+    font-size: 38px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -541,9 +667,9 @@ span {
     grid-row: 1/2;
     width: 100%;
     height: 22px;
-    margin: 30px 2px 50px 7px;
+    margin: 80px 2px 50px 7px;
     font-family: Helvetica;
-    font-size: 55px;
+    font-size: 48px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -559,7 +685,7 @@ span {
     height: auto;
     margin: 10px 11px 36px 7px;
     font-family: Helvetica;
-    font-size: 32px;
+    font-size: 33px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -574,7 +700,7 @@ span {
     height: auto;
     margin: 10px 11px 36px 7px;
     font-family: Helvetica;
-    font-size: 32px;
+    font-size: 33px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -584,7 +710,7 @@ span {
   }
 .footer{
     display: grid;
-    grid-template-columns: 60px 1fr 60px;
+    grid-template-columns: 37px 1fr 37px;
 }
 
 .footer>*{
@@ -642,6 +768,20 @@ span {
     width: 55px;
     height: 55px;
     margin: 36px 21px 32px 8px;
+  }
+
+  .line-flex{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .Line {
+    width: 940px;
+    height: 2px;
+    /* margin: 10px 70px 29px 11px; */
+
+    border: solid 1px #eee;
   }
 
 
