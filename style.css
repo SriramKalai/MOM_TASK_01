@@ -7,6 +7,10 @@ body{
 .Products-des{
     display: none;
 }
+
+.email-detail-des{
+    display: none;
+}
 .Hero {
     background-image: url("Images/hero_back.png");
     background-size: cover;
@@ -554,7 +558,7 @@ body{
     color: #000;
   }
 
-  .insta{
+  .insta-mobile{
     display:flex;
     justify-content: center;
 }
@@ -590,8 +594,8 @@ body{
   }
   .about-us-grid{
     display: grid;
-    grid-template-columns: 1;
-    grid-template-rows: 3;
+    grid-template-columns: 570px;
+    grid-template-rows: 110px 110px 26px;
     margin-top: -10px;
   }
   .Menu-1 {
@@ -797,17 +801,23 @@ body{
   /* RESPONSIVE */
 
   @media only screen and (min-width: 1024px){
+    body{
+        margin: 0px;
+    }
      .Hero {
-        background-image: url("Images/Hero.png");
+        background-image: url("Images/Hero.svg");
         background-size: cover;
         background-repeat: no-repeat;
-        height: 99%;
-        object-fit:cover;
-        background-position:center;
+        max-width: 100%;
+        height: 990px;
+        object-fit: cover;
+        position: relative;
+        display: flex;
+        flex-flow: column;
    
     }
     .text-over{
-        margin-top: -2.5%;
+        margin-top: 35px;
         margin-bottom: 20px;
     
     }
@@ -815,94 +825,115 @@ body{
     .home{
         height: 50%;
         width: 70%;
-        flex-wrap:wrap;
+        /* flex-wrap:wrap; */
+        position: absolute;
         justify-content: space-between;
         
     }
 
     .menu{
-        height: 4.4%;  
+        width:8px ;
+        height: 15px;  
         padding-top: 1%;  
+        padding-left: 30px;
     }
     
     .city{
-        width: auto;
-        height: 4.4%;
+        width: 60;
+        height: 40px;
+        
     }
     
     .cart{
-        width: auto;
-        height: 1.9%;
+        width: 21px;
+        height: 18px;
         padding-top: 1%;
     }
      
     .spring-content {       
-        font-size: 200px;
+        font-size: 250px;
       }
     
       .second-content{
-        margin-top:30px ;
+        margin-top:45px ;
       }
     
       .collection-here{        
-        font-size: 30px;   
+        font-size: 40px;   
     
+      }
+
+      #first_button{
+        width: 280px;
+        height: 50px;
+        background-color: #000;
+        border: solid 2px #fff;
       }
     
       .button {   
         display: inline;  
         width: auto;
-        height: 190px;        
+        height: 100px;        
       }
     
       .button-img{
-        width: 280px;
-        height: 50px;
+        width: 50px;
+        height: 25px;
         margin-top: 0px;
         padding-right: 0px;
         margin-left: 220px;
       }
     
       .Shop-the-collection {    
-        margin: -14% 80px 0px 0px;
-        font-size: 30px;
+        margin: -13% 80px 0px 0px;
+        width: 200px;
+        padding-left: 15px;
+        font-size: 19px;
       }
+
+      .jacket-content{
+        margin-top: 2.9%;
+        display: flex;
+        justify-content: center; 
+        align-items: center;    
+     }
 
 
       .jacket-sunglass{       
         flex-direction: row;
         gap:10px;
         margin-top: -8%;
+        padding-left: 10px;
     }     
     
     
      .sunglass-img{
-        width:650px;
-        height: 424px;
+        width:525px;
+        height: 335px;
         border: 0px;        
      }
 
      .jacket-img{
         margin-top: -8%;
-        width:650px;
-        height: 424px;    
+        width:525px;
+        height: 335px;    
         border: 0px;  
      }
 
      .text-Sunglass{
-        margin-top: -70px;
+        margin-top: -74px;
         font-size: 40px;
     }
 
     .sunglass-shopbutton{  
-        margin-top:270px;
-        width: 220px;
+        margin-top:230px;
+        width: 195px;
         height: 44px;
     }
 
     .text-shop{
-        margin: 265px 40px 0 0px;
-        font-size:22px;
+        margin: 230px 45px 0 0px;
+        font-size:18px;
     }
 
     .text-jacket{
@@ -912,26 +943,27 @@ body{
     }
 
     .jacket-shopbutton{   
-        margin-top: 220px;
-        width: 220px;
+        margin-top: 190px;
+        padding-left: 10px;
+        width: 195px;
         height: 44px;
        
     }
 
     .text-shop-1{        
-        margin: 215px 35px 0 0;        
-        font-size: 22px;   
+        margin: 190px 35px 0 0;        
+        font-size: 18px;   
      }
 
      .Featured-Products{
-        margin-top: 5.6%;
-        padding-left: 85px;
-        font-size: 25px;
+        margin-top: 4.5%;
+        padding-left: 14.3%;
+        font-size: 21px;
       }
 
       .Line {
-        width: 1300px;
-        margin-top: -30px;
+        width: 1050px;
+        margin-top: -35px;
       }
 
       .Products-margin{
@@ -942,7 +974,8 @@ body{
     }
 
     .Products-des{
-        margin-top: 0px;
+        margin-left: 100px;
+        margin-top: -20px;
         margin-bottom: 40px;
         display: flex;
         height: 100%;
@@ -990,14 +1023,14 @@ body{
         /* margin-left: 340px; */
     }
     .img-product-1{
-        width: 570px;
-        height: 570px;
+        width: 550px;
+        height: 560px;
         /* margin: 48px 0 11px; */
         
     }
     .img-product-2{
-        width: 270px;
-        height: 260px;
+        width: 250px;
+        height: 250px;
         padding-left: 20px;
     }
     .img-product-3{
@@ -1014,25 +1047,44 @@ body{
     /* Footer */
 
     .footer{
-        grid-template-columns: 150px 1fr 150px;
+        width: 98%;
+        height: 100%;
+        margin: 200px 0 0 0;
+        padding: 32px 18px 44px 19px;
+        background-color: #f6f6f6;
     }
 
-    .We-love-speaking-to {     
-        font-size: 33px;
-        height: 20px;
-      }
+    .footer{
+        grid-template-columns: 200px 1fr 200px;
+    }
 
+    .sologun{
+        margin-top: -40px;
+
+    }
+
+    .We-love-speaking-to {   
+        font-size: 28px;
+        /* margin-right: 135px; */
+        height: 10px;
+      }
+    
+    .email-detail-des{
+        display: flex;
+        justify-content: center;
+        /* margin-right: 205px; */
+        margin-top: 2px;
+    }
     .email-detail{
-        margin-top: 10px;
-        justify-content: start;
+        display:none;
     }
     .email{
-        margin-left: 250px;
+        margin-left: 0px;
     }
 
     .shopifypartners {
         margin: 34px 0px 22px -0px;   
-        font-size: 18px;       
+        font-size: 14px;       
       }
 
     .phone-number{
@@ -1042,31 +1094,35 @@ body{
 
       .mobile-number{
         margin: 36px 42px 22px 51px;
-        font-size: 18px; 
+        font-size: 14px; 
       }
 
-      .insta{
+    .insta{
+        margin-top: 35px;
         display:flex;
         justify-content:center;
     }
+    .insta-mobile{
+        display: none;
+    }
     
       .hellomyshopemailco {
-        margin-top: -45px;
-        margin-left: 300px;
-        font-size: 18px;
+        margin-top: 0px;
+        margin-left: 30px;
+        font-size: 14px;
       }
 
       .footer-grid{
-        /* margin-top: 35px;
-        margin-bottom: 40px; */
+        margin-top: -55px;
+        /* margin-bottom: 40px; */
         display: grid;
         /* height: 100%; */
         grid-gap: 5px;
         justify-content: center;
         /* align-items: center; */
-        grid-template-columns:1fr 14fr 1fr;
-        grid-template-rows: repeat(1,1fr);
-        grid-template-areas: "m a a a a a a a a a a a a a a i";
+        grid-template-columns: 190px 765px 1fr;
+        grid-template-rows:1;
+        grid-template-areas: "m a i";
       }
 
       .footer-menu{
@@ -1082,17 +1138,16 @@ body{
 
       .footer-menu{
         display: grid;
-        grid-template-columns: 1;
-        grid-template-rows: repeat(5,1fr);
+        grid-template-columns: 10px;
+        grid-template-rows: repeat(5,32px);
         grid-gap: 0px;
-        margin-top: 105px;
+        margin-top: 70px;
         margin-bottom: 10px;
       }
       .about-us-grid{
-        display: grid;
-        grid-template-columns: 1;
-        grid-template-rows: 3;
         margin-top: -10px;
+        grid-gap:0px;
+        /* margin-left: -100px; */
       }
       .Menu-1 {
         margin: 0 29px 0px 10px;
@@ -1100,22 +1155,22 @@ body{
       }
     
       .Women {
-        font-size: 18px;
+        font-size: 12px;
       }
     
       .Men {
         margin: 0px 11px 0px 10px;
-        font-size: 18px;
+        font-size: 12px;
       }
     
       .Accessories {
-        margin: 0px 96px 0px 10px;
-        font-size: 18px;
+        margin: 0px 96px 0px 5px;
+        font-size: 12px;
       }
     
     .About {
         margin: 0px 34px 0px 10px;
-        font-size: 18px;
+        font-size: 12px;
       }
 
       .Bag-7000{
@@ -1157,6 +1212,89 @@ body{
         margin-right: 8px;
         margin-top: 3%;
         font-size: 18px;
+      }
+
+
+      .footer-line{
+        width: 100%;
+        /* height: 1px; */
+        margin: 8px 9px 10px;
+        border: solid 1px #ccc;
+      }
+
+      .About-Us{
+        grid-row: 1/2;
+        width: 100%;
+        height: 22px;
+        margin: 80px 2px 50px 7px;
+        font-size: 18px;
+    }
+
+    .The-Shopify-Web-Desi {
+        width: 569px;
+        height: auto;
+        margin: 10px 11px 36px 7px;
+        font-size: 12px;
+
+      }
+    
+      .The-Shopify-Web-Desi-1 {
+        width: 569px;
+        height: auto;
+        margin: -10px 11px 36px 7px;
+        font-size: 12px;
+      }
+
+      .social-media{
+        grid-gap: 20px;
+        grid-template-columns:repeat(3,21px);
+        grid-template-rows: 1fr;
+        margin-top: 75px;
+        margin-bottom: 20px;
+      }
+
+
+      .face{
+        grid-column: 1/2;
+        width: 21px;
+        height: 21px;
+        margin: 36px 21px 32px 8px;
+      }
+    
+      .instagram{
+        grid-column: 2/3;
+        width: 21px;
+        height: 21px;
+        margin: 36px 21px 32px 8px;
+      }
+    
+      .twitter{
+        grid-column: 3/4;
+        width: 21px;
+        height: 21px;
+        margin: 36px 21px 32px 8px;
+      }
+
+      .Line-Copy-6 {
+        width: 100%;
+        height: 1px;
+        margin: 80px 11px 12px 7px;
+        border: solid 1px #ccc;
+      }
+
+      .Powered-by-Shopify {
+        width: 100%;
+        height: 16px;
+        margin: 0px 62px 80px 10px;
+        font-family: Helvetica;
+        font-size:14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        text-align: start;
+        letter-spacing: 0.23px;
+        color: #444;
       }
 
    
