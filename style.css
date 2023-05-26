@@ -12,7 +12,7 @@ body{
     display: none;
 }
 .Hero {
-    background-image: url("Images/hero_back.png");
+    background-image: url("Images/Hero_mobile.svg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100.9%;
