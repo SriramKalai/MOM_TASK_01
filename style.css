@@ -187,7 +187,7 @@ body{
 
  .sunglass-img{
     position: relative;
-    width:100%;
+    width:940px;
     height: 670px;
     border: 6px solid white;
     
@@ -265,7 +265,7 @@ body{
  .jacket-img{
     position: relative;
     /* object-fit: sc; */
-    width:100%;
+    width:940px;
     height: 875px;
     border: 6px solid white;
     background-position:auto;
@@ -970,7 +970,7 @@ body{
       }
 
       .Products-margin{
-        grid-template-columns: 300px 1fr 230px;
+        grid-template-columns: 300px 1fr 300px;
     }
     .Products{
         display: none;
@@ -980,6 +980,7 @@ body{
         /* margin-left: 100px; */
         margin-top: -20px;
         margin-bottom: 40px;
+        padding-left: 20px;
         display: flex;
         height: 100%;
         width:850px;
