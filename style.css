@@ -1141,7 +1141,7 @@ body{
 
       .footer-menu{
         display: grid;
-        grid-template-columns: 10px;
+        grid-template-columns: 188px;
         grid-template-rows: 38px 32px 32px 32px 32px;
         grid-gap: 0px;
         margin-top: 70px;
@@ -1162,25 +1162,21 @@ body{
     
       .Women {
         font-size: 12px;
-        font-weight: normal;
       }
     
       .Men {
-        margin: 0px 11px 0px 10px;
         font-size: 12px;
-        font-weight: normal;
       }
     
       .Accessories {
-        margin: 0px 96px 0px 5px;
+        margin: 0px -10px 0px 5px;
         font-size: 12px;
-        font-weight: normal;
       }
     
     .About {
         margin: 0px 34px 0px 10px;
         font-size: 12px;
-        font-weight: normal;        
+        /* font-weight: normal;         */
       }
 
       .Bag-7000{
