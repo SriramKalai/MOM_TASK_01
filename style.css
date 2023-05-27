@@ -188,7 +188,7 @@ body{
  .sunglass-img{
     position: relative;
     width:100%;
-    height: 592px;
+    height: 602px;
     border: 6px solid white;
     
  }
@@ -266,7 +266,7 @@ body{
     position: relative;
     /* object-fit: sc; */
     width:100%;
-    height: 592px;
+    height: 602px;
     border: 6px solid white;
     background-position:auto;
     background-size: cover;
