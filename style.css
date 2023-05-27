@@ -210,7 +210,7 @@ body{
 }
 
 .text-jacket{
-    margin-top: 220px;
+    margin-top: 79px;
     display: flex;
     justify-content: center;
     position: absolute;
@@ -250,7 +250,7 @@ body{
 }
 
 .jacket-shopbutton{   
-    margin-top: 65%;
+    margin-top: 48%;
     width: 440px;
     height: 100px;
     position:absolute;
@@ -275,7 +275,7 @@ body{
 
  .text-shop-1{
     position: absolute;
-    margin: 630px 90px 0 0px;
+    margin: 465px 90px 0 0px;
     /* justify-content: center; */
     align-items: end;
     font-family: Helvetica;
