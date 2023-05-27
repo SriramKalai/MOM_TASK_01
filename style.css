@@ -141,6 +141,7 @@ body{
     width: auto;
     height: 190px;
     
+    
   }
   .sec_button{
     position:absolute; 
@@ -153,6 +154,7 @@ body{
     padding: 11px 30px 11px 32px; */
     border: solid 4px #fff;
     background-color: rgba(0, 0, 0, 0.24);
+    cursor: pointer;
   }
   .button-img-2{
     width: 110px;
@@ -177,6 +179,7 @@ body{
     margin-top: 650px;
     border: solid 4px #fff;
     background-color: rgba(0, 0, 0, 0.24);
+    cursor: pointer;
   }
 
 
@@ -1373,6 +1376,7 @@ body{
       }
 
       .first_button{
+        cursor: pointer;
         width: 280px;
         height: 50px;
         background-color: #000;
