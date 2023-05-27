@@ -8,6 +8,13 @@ body{
     display: none;
 }
 
+.size-margin-parent{
+    display: flex;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 .email-detail-des{
     display: none;
 }
@@ -100,6 +107,7 @@ body{
   }
 
   .second-content{
+    margin-top: -1%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -108,7 +116,7 @@ body{
   .collection-here{
     /* width: auto;
     height: 10px; */
-    margin-top: -4%;
+    margin-top: -2%;
     margin-left: 2%;
     /* margin: 240px 97px 9px 96px; */
     font-family: Helvetica;
@@ -134,6 +142,44 @@ body{
     height: 190px;
     
   }
+  .sec_button{
+    position:absolute; 
+    /* margin-left:-500px;    */
+    width: 400px;
+    height: 80px;
+    margin-top: 500px;
+    /* margin-left:-850px */
+    /* margin: 20px 30px 0;
+    padding: 11px 30px 11px 32px; */
+    border: solid 4px #fff;
+    background-color: rgba(0, 0, 0, 0.24);
+  }
+  .button-img-2{
+    width: 110px;
+    height: 60px;
+    margin-top: 15px;
+    padding-left: 250px;
+    /* padding-right: 30px; */
+    /* margin-left: 390px; */
+  }
+
+  .button-img-3{
+    width: 110px;
+    height: 60px;
+    margin-top: 15px;
+    padding-left: 250px;
+  }
+
+  .third_button{
+    position:absolute; 
+    width: 400px;
+    height: 80px;
+    margin-top: 650px;
+    border: solid 4px #fff;
+    background-color: rgba(0, 0, 0, 0.24);
+  }
+
+
   .first_button{
     
     width: 550px;
@@ -164,14 +210,17 @@ body{
     text-align: center;
     color: #fff;
   }
-
+.sunglass-button{
+    display: flex;
+    justify-content: center;
+}
  
 .jacket-sunglass{
     display: flex;
     justify-content: center;
     /* padding: 10px 0 0 0 ; */
     flex-direction: column;
-    margin-top: -7.5%;
+    margin-top: -1.5%;
     /* flex-wrap: wrap; */
 }
 
@@ -188,7 +237,7 @@ body{
  .sunglass-img{
     position: relative;
     width:100%;
-    height: 602px;
+    height: 670px;
     border: 6px solid white;
     
  }
@@ -214,7 +263,7 @@ body{
     display: flex;
     justify-content: center;
     position: absolute;
-    padding-top: 12%;
+    padding-top: 30%;
     font-family: Helvetica;
     font-size: 75px;
     font-weight: bold;
@@ -228,7 +277,7 @@ body{
 .text-shop{
     display: flex;
     position: absolute;
-    margin: 465px 80px 0 0px;
+    margin: -70px 60px 0 40px;
     /* width: 98%; */
     /* justify-content: center; */
     align-items: end;
@@ -266,7 +315,7 @@ body{
     position: relative;
     /* object-fit: sc; */
     width:100%;
-    height: 602px;
+    height: 830px;
     border: 6px solid white;
     background-position:auto;
     background-size: cover;
@@ -275,7 +324,7 @@ body{
 
  .text-shop-1{
     position: absolute;
-    margin: 465px 90px 0 0px;
+    margin: -70px 90px 0 40px;
     /* justify-content: center; */
     align-items: end;
     font-family: Helvetica;
@@ -481,10 +530,10 @@ body{
   }
 
 .footer{
-    width: 97%;
+    width: 100%;
     height: 100%;
     margin: 27% 0 0;
-    padding: 32px 18px 44px 19px;
+    /* padding: 32px 18px 44px 19px; */
     background-color: #f6f6f6;
 }
 
@@ -918,8 +967,8 @@ body{
     }
 
     .text-shop{
-        margin: 230px 45px 0 0px;
-        font-size:18px;
+        margin: -40px 45px 0 10px;
+        font-size:22px;
     }
 
     .text-jacket{
@@ -938,8 +987,8 @@ body{
     }
 
     .text-shop-1{        
-        margin: 190px 35px 0 0;        
-        font-size: 18px;   
+        margin: -36px 35px 0 15px;        
+        font-size: 22px;   
      }
 
      .Featured-Products{
@@ -1363,7 +1412,53 @@ body{
 
       }
 
+
+      .sec_button{
+        position:absolute; 
+        width: 205px;
+        height: 44px;
+        margin-top: 250px;
+      }
+      .button-img-2{
+        width: 50px;
+        height: 30px;
+        margin-top: 8px;
+        padding-left: 125px;
+      }
+
+
+      .button-img-3{
+        width: 50px;
+        height: 30px;
+        margin-top: 6px;
+        padding-left: 130px;
+      }
+    
+      .third_button{
+        position:absolute; 
+        width: 205px;
+        height: 44px;
+        margin-top: 215px;
+        border: solid 4px #fff;
+        background-color: rgba(0, 0, 0, 0.24);
+      }
       
 
    
+  }
+
+
+
+
+  @media only screen and (max-width: 1200px){
+
+    .size-margin{
+        margin-top:-40px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 1050px;
+        
+    }
+    
   }
