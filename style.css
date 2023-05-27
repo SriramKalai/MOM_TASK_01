@@ -1,6 +1,5 @@
 body{
     margin: 0;
-    /* background-color: black; */
 } 
 
 
@@ -114,11 +113,8 @@ body{
   }
 
   .collection-here{
-    /* width: auto;
-    height: 10px; */
     margin-top: -2%;
     margin-left: 2%;
-    /* margin: 240px 97px 9px 96px; */
     font-family: Helvetica;
     font-size: 50px;
     font-weight: bold;
@@ -145,13 +141,9 @@ body{
   }
   .sec_button{
     position:absolute; 
-    /* margin-left:-500px;    */
     width: 400px;
     height: 80px;
     margin-top: 500px;
-    /* margin-left:-850px */
-    /* margin: 20px 30px 0;
-    padding: 11px 30px 11px 32px; */
     border: solid 4px #fff;
     background-color: rgba(0, 0, 0, 0.24);
     cursor: pointer;
@@ -159,10 +151,8 @@ body{
   .button-img-2{
     width: 110px;
     height: 60px;
-    margin-top: 15px;
+    margin-top: 5px;
     padding-left: 250px;
-    /* padding-right: 30px; */
-    /* margin-left: 390px; */
   }
 
   .button-img-3{
@@ -187,7 +177,7 @@ body{
     
     width: 550px;
     height: 100px;
-    /* padding-right: 120px; */
+   
     background-color: #000;
     border: solid 2px #fff;
   }
@@ -196,7 +186,6 @@ body{
     width: 80px;
     height: 60px;
     margin-top: 0px;
-    /* padding-right: 30px; */
     margin-left: 390px;
   }
 
@@ -219,12 +208,13 @@ body{
 }
  
 .jacket-sunglass{
+    display: none;
+}
+.jacket-sunglass_mobile{
     display: flex;
     justify-content: center;
-    /* padding: 10px 0 0 0 ; */
     flex-direction: column;
     margin-top: -1.5%;
-    /* flex-wrap: wrap; */
 }
 
 
@@ -279,10 +269,7 @@ body{
 }
 .text-shop{
     display: flex;
-    position: absolute;
     margin: -70px 60px 0 40px;
-    /* width: 98%; */
-    /* justify-content: center; */
     align-items: end;
     font-family: Helvetica;
     font-size: 45px;
@@ -291,7 +278,6 @@ body{
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
-    /* text-align: center; */
     color: #fff;
 }
 .sunglass-shopbutton{  
@@ -316,7 +302,6 @@ body{
 
  .jacket-img{
     position: relative;
-    /* object-fit: sc; */
     width:100%;
     height: 830px;
     border: 6px solid white;
@@ -328,7 +313,6 @@ body{
  .text-shop-1{
     position: absolute;
     margin: -70px 90px 0 40px;
-    /* justify-content: center; */
     align-items: end;
     font-family: Helvetica;
     font-size: 45px;
@@ -907,21 +891,21 @@ body{
     }
 
     .menu{
-        width:8px ;
-        height: 15px;  
+        width:9px ;
+        height: 17px;  
         padding-top: 1%;  
         padding-left: 30px;
     }
     
     .city{
-        width: 60;
-        height: 40px;
+        width: 70px;
+        height: 50px;
         
     }
     
     .cart{
-        width: 21px;
-        height: 18px;
+        width: 24px;
+        height: 21px;
         padding-top: 1%;
     }
      
@@ -935,12 +919,18 @@ body{
      }
 
 
-      .jacket-sunglass{       
+      .jacket-sunglass{ 
+        display: flex;
+        justify-content: center;
+        margin-top: -1.5%;      
         flex-direction: row;
         gap:10px;
         margin-top: -8%;
         padding-left: 10px;
     }     
+    .jacket-sunglass_mobile{
+        display: none;
+    }
     
     
      .sunglass-img{
@@ -1395,14 +1385,15 @@ body{
         height: 25px;
         margin-top: 0px;
         padding-right: 0px;
-        margin-left: 220px;
+        margin-left: 200px;
       }
     
       .Shop-the-collection {    
-        margin: -13% 80px 0px 0px;
+        margin: -12% 80px 0px 0px;
         width: 200px;
-        padding-left: 15px;
+        padding-left: 0px;
         font-size: 18px;
+
       }
 
       .shop-button{
@@ -1426,7 +1417,7 @@ body{
       .button-img-2{
         width: 50px;
         height: 30px;
-        margin-top: 8px;
+        margin-top: 0px;
         padding-left: 125px;
       }
 
