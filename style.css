@@ -21,7 +21,7 @@ body{
     background-image: url("Images/hero_back.png");
     background-size: cover;
     background-repeat: no-repeat;
-    max-width: 100.9%;
+    max-width: 100%;
     height: 1090px;
     object-fit:fill;
     background-position: center;
@@ -207,10 +207,10 @@ body{
     justify-content: center;
 }
  
-.jacket-sunglass{
+/* .jacket-sunglass{
     display: none;
-}
-.jacket-sunglass_mobile{
+} */
+.jacket-sunglass{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -1457,4 +1457,18 @@ body{
         flex-direction: column;
         max-width: 1050px;        
     }    
+  }
+
+
+
+  @media only screen and (min-width: 1400px){
+    .social-media{
+        grid-gap: 20px;
+        grid-template-columns:repeat(3,21px);
+        grid-template-rows: 1fr;
+        margin-top: 75px;
+        margin-bottom: 20px;
+        margin-left: 180px;
+      }
+
   }
