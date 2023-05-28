@@ -16,7 +16,7 @@ body{
 
 
 .Hero {
-    background-image: url("Images/hero_back.png");
+    background-image: url("Images/hero_back.webp");
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 100%;
