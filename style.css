@@ -1198,21 +1198,21 @@ body{
       }
     
       .Women {
-        font-size: 12px;
+        font-size: 14px;
       }
     
       .Men {
-        font-size: 12px;
+        font-size: 14px;
       }
     
       .Accessories {
-        margin: 0px -10px 0px 5px;
-        font-size: 12px;
+        margin: 0px 10px 0px 8px;
+        font-size: 14px;
       }
     
     .About {
-        margin: 0px 34px 0px 10px;
-        font-size: 12px;
+        margin: 0px 34px 0px 08px;
+        font-size: 14px;
         /* font-weight: normal;         */
       }
 
@@ -1278,7 +1278,7 @@ body{
         width: 569px;
         height: auto;
         margin: 10px 11px 36px 7px;
-        font-size: 12px;
+        font-size: 14px;
 
       }
     
@@ -1286,7 +1286,7 @@ body{
         width: 569px;
         height: auto;
         margin: -10px 11px 36px 7px;
-        font-size: 12px;
+        font-size: 14px;
       }
 
       .social-media{
