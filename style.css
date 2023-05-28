@@ -127,6 +127,7 @@ body{
   .shop-button{
     display: flex;
     justify-content: center;
+    margin-top: 30px;
   }
 
   .button {   
