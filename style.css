@@ -367,28 +367,29 @@ body{
 .Products{
     margin-top: 35px;
     margin-bottom: 40px;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     height: 100%;
     grid-gap: 5px;
     justify-content: center;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-template-rows: repeat(2,150px);
+    /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(2,150px); */
 }
 
 #card1{
-    grid-column: 1/-1;
-    grid-row: 1/10;
+    /* grid-column: 1/-1;
+    grid-row: 1/10; */
 }
 
 #card2{
     margin-top: -1%;
-    grid-column: 1/-1;
-    grid-row: 10/20;
+    /* grid-column: 1/-1;
+    grid-row: 10/20; */
 }
 #card3{
     margin-top: 10%;
-    grid-column: 1/-1;
-    grid-row: 20/30;
+    /* grid-column: 1/-1;
+    grid-row: 20/30; */
 }
 
 .card{
@@ -1004,20 +1005,19 @@ body{
       .Products-margin{
         grid-template-columns: 300px 1fr 300px;
     }
-    .Products{
-        display: none;
-    }
+   
     .Product-Parent{
         display: flex;
         justify-content: center;
     }
 
-    .Products-des{
+    .Products{
         /* margin-left: 100px; */
         margin-top: -10px;
         margin-bottom: 40px;
         padding-left: 20px;
         display: flex;
+        flex-direction: row;
         height: 100%;
         width:850px;
         grid-gap: 5px;
