@@ -14,9 +14,7 @@ body{
     padding-right: 40px;
 }
 
-.email-detail-des{
-    display: none;
-}
+
 .Hero {
     background-image: url("Images/hero_back.png");
     background-size: cover;
@@ -553,10 +551,12 @@ body{
     color: #444;
   }
 
-.email-detail{
-    margin-top: -10px;
-    display: flex;
-    justify-content: space-evenly;
+.email-detail-des{
+    margin-top: -40px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 550px auto;
+    grid-template-rows: 1fr;  
 }
 
 .email{
@@ -587,7 +587,7 @@ body{
 .mobile-number {
     /* width: 104px;
     height: 17px; */
-    margin: 34px 42px 22px 51px;
+    margin: 34px 42px 22px -51px;
     font-family: Helvetica;
     font-size: 40px;
     font-weight: normal;
@@ -606,6 +606,8 @@ body{
 
   .hellomyshopemailco {
     /* margin: 22px 90px 34px 2px; */
+    padding-left:225px;
+    /* margin-left: 100px; */
     margin-top: 30px;
     font-family: Helvetica;
     font-size: 40px;
@@ -630,7 +632,7 @@ body{
     grid-template-columns: 1;
     grid-template-rows: 5;
     grid-gap: 80px;
-    margin-top: 150px;
+    margin-top: 100px;
     margin-bottom: 100px;
     padding-left: 10px;
   }
@@ -828,7 +830,7 @@ body{
   }
 
   .line-flex{
-    margin-top: 3%;
+    margin-top: 80px;
     display: flex;
     justify-content: center;
   }
@@ -1117,9 +1119,6 @@ body{
         /* margin-right: 205px; */
         margin-top: 2px;
     }
-    .email-detail{
-        display:none;
-    }
     .email{
         margin-left: 0px;
     }
@@ -1150,13 +1149,14 @@ body{
     
       .hellomyshopemailco {
         margin-top: 0px;
+        padding-left: 0px;
         margin-left: 30px;
         font-size: 14px;
       }
 
       .footer-grid{
         /* padding-right:100px ; */
-        margin-top: -70px;
+        margin-top: -50px;
         display: flex;
         grid-gap: 5px;
         justify-content: center;
