@@ -875,7 +875,7 @@ body{
     }
      .Hero {
         max-width: 1438px;
-        background-image: url("Images/Hero.svg");
+        background-image: url("Images/Hero.webp");
         background-size: cover;
         background-repeat: no-repeat;
         max-width: 100%;
