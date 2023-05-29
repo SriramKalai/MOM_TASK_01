@@ -76,7 +76,7 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 74px;
    
 
 }
@@ -93,7 +93,7 @@ body{
 .spring-content {
     height: 7px;
     font-family: "Didot Italic", serif;
-    font-size: 220px;
+    font-size: 210px;
     font-weight: normal;
     font-stretch: normal;
     font-style: italic;
@@ -111,10 +111,10 @@ body{
   }
 
   .collection-here{
-    margin-top: -2%;
-    margin-left: 2%;
+    margin-top: -1%;
+    margin-left: -2%;
     font-family: Helvetica;
-    font-size: 50px;
+    font-size: 48px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -127,7 +127,8 @@ body{
   .shop-button{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 20px;
+    padding-right: 22px;
   }
 
   .button {   
@@ -141,9 +142,9 @@ body{
   .sec_button{
     position:absolute; 
     width: 410px;
-    height: 80px;
-    margin-top: 440px;
-    border: solid 2px #fff;
+    height: 95px;
+    margin-top: 460px;
+    border: solid 4px #fff;
     background-color: rgba(0, 0, 0, 0.24);
     cursor: pointer;
   }
@@ -164,9 +165,9 @@ body{
   .third_button{
     position:absolute; 
     width: 410px;
-    height: 80px;
-    margin-top: 628px;
-    border: solid 2px #fff;
+    height: 90px;
+    margin-top: 638px;
+    border: solid 4px #fff;
     background-color: rgba(0, 0, 0, 0.24);
     cursor: pointer;
   }
@@ -185,7 +186,7 @@ body{
     width: 80px;
     height: 60px;
     margin-top: 0px;
-    margin-left: 390px;
+    margin-left: 460px;
   }
 
   .Shop-the-collection {
@@ -213,7 +214,7 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: -5.5%;
+    margin-top: 60px;
 }
 
 
@@ -271,7 +272,7 @@ body{
     margin: -70px 60px 0 40px;
     align-items: end;
     font-family: Helvetica;
-    font-size: 45px;
+    font-size: 46px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -293,7 +294,7 @@ body{
     position:absolute;
 }
  .jacket-content{
-        margin-top: 3.5%;
+        margin-top: 30px;
         display: flex;
         justify-content: center; 
         align-items: center;    
@@ -327,9 +328,10 @@ body{
  }
 
  .Featured-Products{
-    margin-top: 6.6%;
+    margin-top: 9.6%;
     /* margin-left: 4%; */
     /* padding-left: 25px; */
+    margin-left: -10px;
     display: grid;
     font-family: Helvetica;
     font-size: 46px;
@@ -405,7 +407,7 @@ body{
 .img-product-2{
     width: 745px;
     height: 763px;
-    margin: 130px 0 11px;
+    margin: 150px 0 11px;
 }
 .img-product-3{
     width: 745px;
@@ -419,7 +421,7 @@ body{
 }
 
 .Bag-7000{
-    /* margin: 40px 109px 55px; */
+    margin: 41px 109px 55px;
     font-family: Helvetica;
     /* padding-left: 7%; */
     margin-top: 0;
@@ -431,7 +433,7 @@ body{
     letter-spacing: normal;
     text-align: center;
     color: #000;
-    margin-top: 40px;
+    margin-top: 26px;
 }
 
 
@@ -455,7 +457,7 @@ body{
     /* margin: 40px 109px 55px; */
     font-family: Helvetica;
     /* padding-left: 7%; */
-    margin-top: 3%;
+    margin-top: 10px;
     font-size: 40px;
     font-weight: bold;
     font-stretch: normal;
@@ -489,7 +491,7 @@ body{
     /* margin: 40px 109px 55px; */
     font-family: Helvetica;
     /* padding-left: 7%; */
-    margin-top: 30px;
+    margin-top: 16px;
     font-size: 40px;
     font-weight: bold;
     font-stretch: normal;
@@ -521,7 +523,7 @@ body{
 .footer{
     width: 100%;
     height: 10%;
-    margin: 150px 0 0;
+    margin: 200px 0 0;
     padding-bottom: 45px;
     /* padding: 32px 18px 44px 19px; */
     background-color: #f6f6f6;
@@ -542,7 +544,7 @@ body{
 .We-love-speaking-to {    
     width: 100%;
     height: 190px;  
-    margin: 130px 0px 0px 0px;
+    margin: 83px 46px 0px 0px;
     font-family: Helvetica;
     font-size: 51px;
     font-weight: 500;
@@ -570,9 +572,9 @@ body{
 .shopifypartners {
     /* width: 114px;
     height: 17px; */
-    margin: 34px 51px 22px 27px;
+    margin: 34px 128px 22px 27px;
     font-family: Helvetica;
-    font-size: 40px;
+    font-size: 38px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -590,9 +592,9 @@ body{
 .mobile-number {
     /* width: 104px;
     height: 17px; */
-    margin: 34px 42px 22px -51px;
+    margin: 34px 42px 22px -140px;
     font-family: Helvetica;
-    font-size: 40px;
+    font-size: 38px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -637,7 +639,7 @@ body{
     grid-gap: 80px;
     margin-top: 100px;
     margin-bottom: 100px;
-    padding-left: 10px;
+    padding-left: 23px;
   }
   .about-us-grid{
     display: grid;
@@ -681,7 +683,7 @@ body{
     width: 29px;
     height: 17px;
     grid-row: 3/4;
-    margin: 0px 11px 0px 10px;
+    margin: -9px 11px 0px 10px;
     font-family: Helvetica;
     font-size: 38px;
     font-weight: bold;
@@ -696,7 +698,7 @@ body{
     grid-row: 4/5;
     width: 86px;
     height: 17px;
-    margin: 0px 96px 0px 10px;
+    margin: -5px 96px 0px 10px;
     font-family: Helvetica;
     font-size: 38px;
     font-weight: bold;
@@ -712,7 +714,7 @@ body{
     grid-row: 5/6;
     width: 42px;
     height: 17px;
-    margin: 0px 34px 0px 10px;
+    margin: -6px 34px 0px 10px;
     font-family: Helvetica;
     font-size: 38px;
     font-weight: bold;
@@ -728,7 +730,7 @@ body{
     grid-row: 1/2;
     width: 100%;
     height: 22px;
-    margin: 50px 2px 50px 22px;
+    margin: 64px 2px 50px 22px;
     font-family: Helvetica;
     font-size: 48px;
     font-weight: normal;
@@ -744,7 +746,7 @@ body{
     grid-row: 2/3;
     width: 100%;
     height: auto;
-    margin: -14px 11px 36px 23px;
+    margin: 0px 11px 36px 23px;
     font-family: Helvetica;
     font-size: 33px;
     font-weight: normal;
@@ -755,13 +757,13 @@ body{
     color: #444;
   }
   #footer-menu-line{
-    margin-top: 60px;
+    margin-top: 78px;
   }
   .The-Shopify-Web-Desi-1 {
     grid-row: 3/4;
     width: 100%;
     height: auto;
-    margin: -18px 11px 36px 24px;
+    margin: -7px 11px 36px 24px;
     font-family: Helvetica;
     font-size: 33px;
     font-weight: normal;
@@ -791,7 +793,7 @@ body{
   .Powered-by-Shopify {
     width: 100%;
     height: 16px;
-    margin: 30px 62px 80px 10px;
+    margin: 38px 62px 80px 30px;
     font-family: Helvetica;
     font-size:35px;
     font-weight: normal;
@@ -808,9 +810,9 @@ body{
     grid-gap: 10px;
     grid-template-columns:repeat(3,100px);
     grid-template-rows: 1;
-    margin-top: 8px;
+    margin-top: 12px;
     margin-bottom: 20px;
-    padding-left: 12px;
+    padding-left: 19px;
   }
 
   .face{
@@ -843,9 +845,16 @@ body{
   .Line {
     width: 100%;
     height: 1px;
-    background-color: #eee;
+    /* background-color: #eee; */
     border: solid 1px #eee;
   }
+
+  /* .Line-1{
+    width: 100;
+    height: 1px;
+    margin: 34px 9px 40px;
+    border: solid 1px #ccc;
+  } */
 
 
 
@@ -859,7 +868,7 @@ body{
     }
 
     #footer-menu-line{
-      margin-top: 0px;
+      margin-top: -30px;
     }
 
     .size-margin{
@@ -928,6 +937,7 @@ body{
 
       .jacket-content{
         /* margin-top: 2.9%; */
+        /* margin-top: 10px; */
         display: flex;
         justify-content: center; 
         align-items: center;    
@@ -940,7 +950,7 @@ body{
         margin-top: -1.5%;      
         flex-direction: row;
         gap:10px;
-        margin-top: -8%;
+        margin-top: -79px;
         padding-left: 10px;
     }     
     .jacket-sunglass_mobile{
@@ -1000,11 +1010,12 @@ body{
      }
 
      .Featured-Products{
-        margin-top:68px;
+        margin-top:58px;
         display: flex;      
-        font-size: 24px;
+        font-size: 22px;
         text-align: start;
         padding-left: 10px;
+        margin-left: 0px;
       
       }
 
@@ -1024,9 +1035,9 @@ body{
 
     .Products{
         /* margin-left: 100px; */
-        margin-top: -10px;
+        margin-top: -8px;
         margin-bottom: 40px;
-        padding-left: 20px;
+        padding-left: 24px;
         display: flex;
         flex-direction: row;
         height: 100%;
@@ -1082,7 +1093,7 @@ body{
     .img-product-2{
         width: 240px;
         height: 250px;
-        padding-left: 0px;
+        padding-left: 8px;
         margin-top: 50px;
     }
     .img-product-3{
@@ -1090,7 +1101,7 @@ body{
         height: 250px;
         padding-left: 20 px;
         margin-bottom: -3%;
-        margin: 48px 0 11px;
+        margin: 48px 8px 11px;
     }
     
 
@@ -1102,7 +1113,7 @@ body{
         display: grid;
         width: 100%;
         height: 100%;
-        margin: 137px 0 0 0;
+        margin: 150px 0 0 0;
         padding: 32px 0px 44px 0px;
         background-color: #f6f6f6;
     }
@@ -1117,19 +1128,22 @@ body{
     }
 
     .We-love-speaking-to {   
-        font-size: 28px;
-        /* margin-right: 135px; */
+        font-size: 26px;
+        margin-top: 44px;
         height: 10px;
+        margin-left:58px;
+        letter-spacing: 0.43px;
       }
     
     .email-detail-des{
         display: flex;
         justify-content: center;
         /* margin-right: 205px; */
-        margin-top: 2px;
+        margin-top: 8px;
+        margin-left: 0px;
     }
     .email{
-        margin-left: 0px;
+        margin-left: -10px;
     }
 
     .shopifypartners {
@@ -1140,6 +1154,7 @@ body{
     .phone-number{
         display: flex;
         justify-content: center;
+        margin-left: -30px;
     }
 
       .mobile-number{
@@ -1151,6 +1166,7 @@ body{
         margin-top: 35px;
         display:flex;
         justify-content:center;
+        margin-left: -10px;
     }
     .insta-mobile{
         display: none;
@@ -1358,22 +1374,28 @@ body{
         display: flex;
         justify-content: center;
         flex-direction: column;
-        margin-top: 40px;
+        margin-top: 30px;
         margin-bottom: 0px;
+        margin-left:10px;
     
     }    
 
 
       .spring-content {       
-        font-size: 250px;
+        font-size: 240px;
+        letter-spacing: 8px;
       }
     
       .second-content{
         margin-top:0px ;
+        margin-left: -40px;
       }
     
       .collection-here{        
-        font-size: 40px;   
+        font-size: 38px;   
+        /* margin-left: -9%; */
+        margin-top: -10px;
+        margin-left: 50px
     
       }
 
@@ -1409,8 +1431,8 @@ body{
       }
 
       .shop-button{
-        margin-top: 14px;
-        margin-left: 10px;
+        margin-top: 6px;
+        margin-left: 20px;
       }
 
       .first-container{
@@ -1424,7 +1446,9 @@ body{
         position:absolute; 
         width: 205px;
         height: 44px;
-        margin-top: 250px;
+        margin-top: 225px;
+        border: solid 2px #fff;
+        background-color: rgba(0, 0, 0, 0.24);
       }
       .button-img-2{
         width: 50px;
@@ -1443,9 +1467,9 @@ body{
     
       .third_button{
         position:absolute; 
-        width: 205px;
+        width: 200px;
         height: 44px;
-        margin-top: 215px;
+        margin-top: 200px;
         border: solid 2px #fff;
         background-color: rgba(0, 0, 0, 0.24);
       }
