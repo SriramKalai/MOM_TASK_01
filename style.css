@@ -857,6 +857,10 @@ body{
         justify-content: center;
     }
 
+    #footer-menu-line{
+      margin-top: 0px;
+    }
+
     .size-margin{
         margin-top:-40px;
         display: flex;
@@ -1085,7 +1089,7 @@ body{
         height: 250px;
         padding-left: 20 px;
         margin-bottom: -3%;
-        /* margin: 48px 0 11px; */
+        margin: 48px 0 11px;
     }
     
 
@@ -1235,7 +1239,7 @@ body{
 
       }
       .Bag-7000-1{
-        margin-top: 40px;
+        margin-top: 18px;
         font-size: 14px;
     }
     
