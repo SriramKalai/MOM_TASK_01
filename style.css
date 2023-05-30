@@ -308,7 +308,7 @@ body{
 
  .jacket-img{
     position: relative;
-    width:100%;
+    width:101%;
     /* height: 828px; 
     padding-left: 4px; */
     height: 846px;
@@ -442,7 +442,7 @@ body{
     letter-spacing: normal;
     text-align: center;
     color: #000;
-    margin-top: 26px;
+    margin-top: 4px;
 }
 
 
@@ -466,7 +466,7 @@ body{
     /* margin: 40px 109px 55px; */
     font-family: Helvetica;
     /* padding-left: 7%; */
-    margin-top: 28px;
+    margin-top: 34px;
     font-size: 36px;
     font-weight: bold;
     font-stretch: normal;
@@ -893,8 +893,9 @@ body{
 
     .footer-menu-line{
       /* padding-left: 300px; */
-      margin-top: -30px;
-      width: 100%;
+      margin-top: -32px;
+      margin-left: 8px;
+      width: 96%;
     }
 
     .size-margin{
@@ -915,7 +916,8 @@ body{
         display: flex;
         justify-content: center;
         flex-direction: column;
-        max-width: 1090px;  
+        max-width: 1090px; 
+        padding-left: 60px; 
     }
      .Hero {
         /* max-width: 1438px; */
@@ -923,7 +925,7 @@ body{
         background-size: cover;
         background-repeat: no-repeat;
         max-width: 100%;
-        height: 990px;
+        height: 934px;
         object-fit: cover;
         position: relative;
         display: flex;
@@ -981,7 +983,7 @@ body{
         flex-direction: row;
         gap:10px;
         margin-top: -79px;
-        padding-left: 10px;
+        padding-left: 33px;
     }     
     .jacket-sunglass_mobile{
         display: none;
@@ -990,14 +992,14 @@ body{
     
      .sunglass-img{
         width:100%;
-        height: 345px;
+        height: 326px;
         border: 0px;        
      }
 
      .jacket-img{
         margin-top: -31px;
-        width:100%;
-        height: 345px;    
+        width:99%;
+        height: 326px;    
         border: 0px;  
         object-fit: cover;
         padding-left: 10px;
@@ -1005,8 +1007,8 @@ body{
      }
 
      .text-Sunglass{
-        padding-top: 25px;
-        font-size: 40px;
+        padding-top: 15px;
+        font-size: 36px;
     }
 
     .sunglass-shopbutton{  
@@ -1016,15 +1018,15 @@ body{
     }
 
     .text-shop{
-        margin: -36px 0px 0 30px;
+        margin: -35px 0px 0 26px;
         font-size:18px;
     }
 
     .text-jacket{
-        margin-top: 70px;
+        margin-top: 64px;
         padding-top: 0%;
-        padding-left: 10px;
-        font-size: 40px;
+        padding-left: 18px;
+        font-size: 36px;
     }
 
     .jacket-shopbutton{   
@@ -1036,16 +1038,16 @@ body{
     }
 
     .text-shop-1{        
-        margin: -36px 0px 0 30px;        
+        margin: -35px 0px 0 26px;        
         font-size: 18px;   
      }
 
      .Featured-Products{
-        margin-top:58px;
+        margin-top:54px;
         display: flex;      
-        font-size: 22px;
+        font-size: 20px;
         text-align: start;
-        padding-left: 10px;
+        padding-left: 36px;
         margin-left: 0px;
       
       }
@@ -1054,6 +1056,7 @@ body{
         width: 100%;
         color:#eee;
         margin-top: -20px;
+        margin-left: 28px;
       }
 
       .Products-margin{
@@ -1067,9 +1070,9 @@ body{
 
     .Products{
         /* margin-left: 100px; */
-        margin-top: -8px;
+        margin-top: -23px;
         margin-bottom: 40px;
-        padding-left: 24px;
+        padding-left: 82px;
         display: flex;
         flex-direction: row;
         height: 100%;
@@ -1117,23 +1120,24 @@ body{
         /* margin-left: 340px; */
     }
     .img-product-1{
-        width: 550px;
-        height: 560px;
+        width: 92%;
+        height: 530px;
         /* margin: 48px 0 11px; */
         
     }
     .img-product-2{
-        width: 240px;
-        height: 250px;
-        padding-left: 8px;
+        width: 88%;
+        height: 230px;
+        /* padding-left: 8px; */
+        margin-left: -20px;
         margin-top: 66px;
     }
     .img-product-3{
-        width: 240px;
-        height: 250px;
-        padding-left: 20 px;
+        width: 88%;
+        height: 230px;
+        /* padding-left: -20 px; */
         margin-bottom: -3%;
-        margin: 64px 8px 11px;
+        margin: 54px 8px 11px -20px;
     }
     
 
@@ -1145,7 +1149,7 @@ body{
         display: grid;
         width: 100%;
         height: 100%;
-        margin: 150px 0 0 0;
+        margin: 120px 0 0 0;
         padding: 32px 0px 44px 0px;
         background-color: #f6f6f6;
     }
@@ -1160,39 +1164,47 @@ body{
     }
 
     .We-love-speaking-to {   
-        font-size: 26px;
-        margin-top: 44px;
+        font-size: 24px;
+        margin-top: 45px;
         font-weight: lighter;
         height: 10px;
-        margin-left:58px;
+        margin-left:-11px;
         letter-spacing: 0.43px;
       }
     
     .email-detail-des{
-        display: flex;
+        /* display: flex;
         justify-content: center;
-        /* margin-right: 205px; */
-        margin-top: 8px;
-        margin-left: 0px;
+        margin-top: 4px;
+        margin-left: 8px;
+        gap: 50px; */
+        margin-top: 3px;
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: 550px 100px 300px;
+      grid-template-rows: 1fr;
+
+
     }
     .email{
-        margin-left: -10px;
+        /* margin-left: -10px; */
     }
 
     .shopifypartners {
-        margin: 34px 0px 22px -0px;   
+        margin: 34px 0px 22px 110px;   
         font-size: 14px;       
       }
 
     .phone-number{
         display: flex;
         justify-content: center;
-        margin-left: 10px;
+        margin-left: -50px;
     }
 
       .mobile-number{
-        margin: 36px 42px 22px 51px;
+        /* margin: 36px 42px 22px 51px; */
         font-size: 14px; 
+        margin-left: -166px;
       }
 
     .insta{
@@ -1208,7 +1220,7 @@ body{
       .hellomyshopemailco {
         margin-top: 0px;
         padding-left: 0px;
-        margin-left: 30px;
+        margin-left: -316px;
         font-size: 14px;
       }
 
@@ -1218,7 +1230,7 @@ body{
         margin-top: -77px;
         display: flex;
         grid-gap: 5px;
-        justify-content: center;
+        justify-content:space-between;
         grid-template-columns: 190px 765px 1fr;
         grid-template-rows:1;
         grid-template-areas: "m a i";
@@ -1240,7 +1252,7 @@ body{
         grid-template-columns: 188px;
         grid-template-rows: 38px 32px 32px 32px 32px;
         grid-gap: 0px;
-        margin-top: 70px;
+        margin-top: 73px;
         margin-bottom: 10px;
       }
       .about-us-grid{
@@ -1251,38 +1263,43 @@ body{
         /* margin-left: -100px; */
       }
       .Menu-1 {
-        margin: 0 29px 0px 10px;
+        margin: -4px 29px 0px 19px;
         font-size: 18px;
         
       }
     
       .Women {
         font-size: 13px;
-        margin: 2px 24px 0px 10px;
+        margin: -1px 24px 0px 19px;
         letter-spacing: 0.22px;
+        /* font-family: normal; */
+        font-weight: normal;
       }
     
       .Men {
         font-size: 13px;
-        margin: 2px 24px 0px 10px;
+        margin: -4px 24px 0px 19px;
         letter-spacing: 0.22px;
+        font-weight: normal;
       }
     
       .Accessories {
-        margin: 0px 10px 0px 8px;
+        margin: -11px 10px 0px 12px;
         font-size: 13px;
         letter-spacing: 0.22px;
+        font-weight: normal;
       }
     
     .About {
-        margin: -2px 34px 0px 08px;
+        margin: -13px 34px 0px 15px;
         font-size: 13px;
         /* font-weight: normal;         */
         letter-spacing: 0.22px;
+        font-weight: normal;
       }
 
       .Bag-7000{
-        margin: 0px 100px 55px ;
+        margin: 4px 100px 55px 67px;
         font-family: Arial, Helvetica, sans-serif;
         /* padding-left: 7%; */
         /* margin-top: 0; */
@@ -1296,18 +1313,19 @@ body{
         /* margin-right: 10px; */
         margin-top: 3%;
         font-size: 14px;
-        margin-right: 8px;
+        margin-right: 4px;
 
       }
       .Bag-7000-1{
-        margin-top: 6px;
+        margin-top: 10px;
         font-size: 14px;
+        margin-left: -65px;
     }
     
     
     
     .text-style-2 {
-        margin-right: 8px;
+        margin-right: 4px;
         margin-top: 3%;
         font-size: 14px;
 
@@ -1317,12 +1335,13 @@ body{
       .Bag-7000-2{
         margin-top: 10px;
         font-size: 14px;
+        margin-left: -76px;
     }
     
     
     
     .text-style-3 {
-        margin-right: 8px;
+        margin-right: 4px;
         margin-top: 3%;
         font-size: 14px;
       }
@@ -1339,14 +1358,14 @@ body{
         grid-row: 1/2;
         width: 100%;
         height: 22px;
-        margin: 80px 2px 50px 7px;
+        margin: 77px 2px 50px 9px;
         font-size: 18px;
     }
 
     .The-Shopify-Web-Desi {
         width: 578px;
         height: auto;
-        margin: 10px 11px 36px 7px;
+        margin: 6px 11px 36px 7px;
         font-size: 13px;
 
       }
@@ -1354,12 +1373,12 @@ body{
       .The-Shopify-Web-Desi-1 {
         width: 569px;
         height: auto;
-        margin: -3px 11px 36px 7px;
+        margin: -15px 11px 36px 7px;
         font-size: 13px;
       }
 
       .social-media{
-        grid-gap: 20px;
+        grid-gap: 18px;
         grid-template-columns:repeat(3,22px);
         grid-template-rows: 1fr;
         margin-top: 75px;
@@ -1390,19 +1409,19 @@ body{
       }
 
       .Line-Copy-6 {
-        width: 99%;
+        width: 96%;
         /* height: 1px; */
         /* background-color: #ccc; */
         color: #ccc;
-        margin: 86px 11px 12px 08px;
+        margin: 68px 11px 12px 19px;
         /* border: solid 0.1px #ccc; */
       }
 
       .Powered-by-Shopify {
         width: 100%;
         height: 16px;
-        margin: 0px 62px -10px 6px;
-        font-size:14px;
+        margin: 0px 62px -10px 19px;
+        font-size:13px;
 
       }
       
@@ -1419,7 +1438,7 @@ body{
         display: flex;
         justify-content: center;
         flex-direction: column;
-        margin-top: 30px;
+        margin-top: 26px;
         margin-bottom: 0px;
         margin-left:10px;
     
@@ -1427,7 +1446,7 @@ body{
 
 
       .spring-content {       
-        font-size: 240px;
+        font-size: 226px;
         letter-spacing: 8px;
       }
     
@@ -1437,16 +1456,16 @@ body{
       }
     
       .collection-here{        
-        font-size: 38px;   
+        font-size: 36px;   
         /* margin-left: -9%; */
-        margin-top: -10px;
-        margin-left: 50px
+        margin-top: -17px;
+        margin-left: 65px
     
       }
 
       .first_button{
         cursor: pointer;
-        width: 280px;
+        width: 264px;
         height: 50px;
         background-color: #000;
         border: solid 2px #fff;
@@ -1464,7 +1483,7 @@ body{
         height: 25px;
         margin-top: 0px;
         padding-right: 0px;
-        margin-left: 210px;
+        margin-left: 200px;
       }
     
       .Shop-the-collection {    
@@ -1476,7 +1495,7 @@ body{
       }
 
       .shop-button{
-        margin-top: 6px;
+        margin-top: 10px;
         margin-left: 40px;
       }
 
@@ -1489,33 +1508,34 @@ body{
 
       .sec_button{
         position:absolute; 
-        width: 206px;
+        width: 192px;
         height: 44px;
-        margin-top: 225px;
-        border: solid 2px #fff;
+        margin-top: 216px;
+        border: solid 3px #fff;
         background-color: rgba(0, 0, 0, 0.24);
       }
       .button-img-2{
-        width: 50px;
+        width: 46px;
         height: 30px;
-        margin-top: 6px;
+        margin-top: 0px;
         padding-left: 108px;
       }
 
 
       .button-img-3{
-        width: 50px;
+        width: 46px;
         height: 30px;
         margin-top: 10px;
-        padding-left: 110px;
+        padding-left: 96px;
       }
     
       .third_button{
         position:absolute; 
-        width: 200px;
+        width: 192px;
         height: 44px;
-        margin-top: 200px;
-        border: solid 2px #fff;
+        margin-top: 187px;
+        margin-left: 18px;
+        border: solid 3px #fff;
         background-color: rgba(0, 0, 0, 0.24);
       }
 
@@ -1530,6 +1550,11 @@ body{
         margin-left: 08px;
         display: flex;
         justify-content: center;
+      }
+      .bar{
+        display: flex;
+        justify-content: center;
+        margin-top: 23px;
       }
       
 
@@ -1561,12 +1586,12 @@ body{
 
   @media only screen and (min-width: 1300px){
     .social-media{
-        grid-gap: 20px;
-        grid-template-columns:repeat(3,21px);
+        grid-gap: 18px;
+        grid-template-columns:repeat(5,21px);
         grid-template-rows: 1fr;
-        margin-top: 75px;
+        margin-top: 71px;
         margin-bottom: 20px;
-        margin-left: 180px;
+        margin-left: 139px;
       }
 
   }
