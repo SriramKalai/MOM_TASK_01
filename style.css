@@ -882,7 +882,7 @@ body{
 
   /* RESPONSIVE */
 
-  @media only screen and (min-width: 995px){
+  @media only screen and (min-width: 1024px){
 
     .size-margin-parent{
         display: flex;
@@ -1580,7 +1580,7 @@ body{
       padding-right: 40px;
       
   } */
-  .face{
+  /* .face{
     grid-column: 1/2;
     width: 21px;
     height: 21px;
@@ -1599,7 +1599,7 @@ body{
     width: 21px;
     height: 21px;
     margin: 40px 21px 32px -19px;
-  }
+  } */
 
   }
 
