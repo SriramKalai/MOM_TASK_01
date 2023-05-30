@@ -754,7 +754,7 @@ body{
 .The-Shopify-Web-Desi {
     grid-row: 2/3;
     width: 100%;
-    height: auto;
+    height: 100px;
     margin: 0px 11px 36px 23px;
     font-family: Helvetica;
     font-size: 33px;
