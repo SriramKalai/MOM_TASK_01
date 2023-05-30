@@ -882,7 +882,7 @@ body{
 
   /* RESPONSIVE */
 
-  @media only screen and (min-width: 995px){
+  @media only screen and (min-width: 1024px){
 
     .size-margin-parent{
         display: flex;
@@ -917,7 +917,7 @@ body{
         justify-content: center;
         flex-direction: column;
         max-width: 1090px; 
-        padding-left: 60px; 
+        padding-left: 42px; 
     }
      .Hero {
         /* max-width: 1438px; */
@@ -1418,9 +1418,9 @@ body{
       }
 
       .Powered-by-Shopify {
-        width: 100%;
+        width: 96%;
         height: 16px;
-        margin: 0px 62px -10px 19px;
+        margin: 0px 0px -10px 19px;
         font-size:13px;
 
       }
@@ -1580,6 +1580,27 @@ body{
       padding-right: 40px;
       
   } */
+  .face{
+    grid-column: 1/2;
+    width: 21px;
+    height: 21px;
+    margin: 40px 21px 32px -6px;
+  }
+
+  .instagram{
+    grid-column: 2/3;
+    width: 21px;
+    height: 21px;
+    margin: 40px 21px 32px -10px;
+  }
+
+  .twitter{
+    grid-column: 3/4;
+    width: 21px;
+    height: 21px;
+    margin: 40px 21px 32px -19px;
+  }
+
   }
 
 
