@@ -10,8 +10,9 @@ body{
 .size-margin-parent{
     display: flex;
     justify-content: center;
-    padding-left: 40px;
+    /* padding-left: 40px; */
     padding-right: 40px;
+    padding-left: 22px;
 }
 
 
@@ -127,8 +128,11 @@ body{
   .shop-button{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-    padding-right: 22px;
+    /* margin-top: 20px;
+    padding-right: 22px; */
+    margin-top: 14px;
+    padding-right: 34px;
+
   }
 
   .button {   
@@ -144,7 +148,7 @@ body{
     width: 410px;
     height: 95px;
     margin-top: 460px;
-    border: solid 4px #fff;
+    border: solid 5px #fff;
     background-color: rgba(0, 0, 0, 0.24);
     cursor: pointer;
     margin-left:8px;
@@ -168,7 +172,7 @@ body{
     width: 410px;
     height: 90px;
     margin-top: 638px;
-    border: solid 4px #fff;
+    border: solid 5px #fff;
     background-color: rgba(0, 0, 0, 0.24);
     cursor: pointer;
     margin-left: 8px;
@@ -181,7 +185,7 @@ body{
     height: 100px;
    
     background-color: #000;
-    border: solid 2px #fff;
+    border: solid 4px #fff;
   }
 
   .button-img{
@@ -231,9 +235,9 @@ body{
 
  .sunglass-img{
     position: relative;
-    width:100%;
+    width:101%;
     height: 638px;
-    border: 6px solid white;
+    border: 3px solid white;
     
  }
 .text-Sunglass{
@@ -243,7 +247,7 @@ body{
     position: absolute;
     padding-top: 12%;
     font-family: Helvetica;
-    font-size: 75px;
+    font-size: 72px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -274,7 +278,7 @@ body{
     margin: -70px 60px 0 40px;
     align-items: end;
     font-family: Helvetica;
-    font-size: 46px;
+    font-size: 42px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -304,9 +308,11 @@ body{
 
  .jacket-img{
     position: relative;
-    width:100%;
-    height: 828px;
-    padding-left: 4px;
+    width:99%;
+    /* height: 828px; 
+    padding-left: 4px; */
+    height: 846px;
+    padding-left: 11px;
     /* border: 6px solid white; */
     background-position:auto;
     background-size: cover;
@@ -318,7 +324,7 @@ body{
     margin: -70px 90px 0 40px;
     align-items: end;
     font-family: Helvetica;
-    font-size: 45px;
+    font-size: 42px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -330,9 +336,10 @@ body{
  }
 
  .Featured-Products{
-    margin-top: 9.6%;
-    /* margin-left: 4%; */
-    padding-left: 15px;
+    /* margin-top: 9.6%; */
+   margin-top: 7.6%;
+   padding-left: 20px;
+    /* padding-left: 15px; */
     margin-left: -10px;
     display: grid;
     font-family: Helvetica;
@@ -404,7 +411,7 @@ body{
 .img-product-1{
     width: 100%;
     height: 762px;
-    margin: 48px 0 11px;
+    margin: 65px 0 11px;
 }
 .img-product-2{
     width: 745px;
@@ -414,7 +421,7 @@ body{
 .img-product-3{
     width: 745px;
     height: 765px;
-    margin: 110px 0 11px;
+    margin: 100px 0 11px;
 }
 
 .price-flex{
@@ -427,7 +434,7 @@ body{
     font-family: Helvetica;
     /* padding-left: 7%; */
     margin-top: 0;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -445,7 +452,7 @@ body{
     /* padding-left: -10%; */
     margin-right: 10px;
     margin-top: 3%;
-    font-size: 40px;
+    font-size: 36px;
     /* font-weight: bold; */
     font-stretch: normal;
     font-style: normal;
@@ -459,8 +466,8 @@ body{
     /* margin: 40px 109px 55px; */
     font-family: Helvetica;
     /* padding-left: 7%; */
-    margin-top: 10px;
-    font-size: 40px;
+    margin-top: 28px;
+    font-size: 36px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -477,7 +484,7 @@ body{
     /* padding-left: -10%; */
     margin-right: 8px;
     margin-top: 3%;
-    font-size: 40px;
+    font-size: 36px;
     /* font-weight: bold; */
     font-stretch: normal;
     font-style: normal;
@@ -492,9 +499,9 @@ body{
   .Bag-7000-2{
     /* margin: 40px 109px 55px; */
     font-family: Helvetica;
-    /* padding-left: 7%; */
-    margin-top: 16px;
-    font-size: 40px;
+    padding-left: 10px;
+    margin-top: 10px;
+    font-size: 36px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -511,7 +518,7 @@ body{
     /* padding-left: -10%; */
     margin-right: 8px;
     margin-top: 3%;
-    font-size: 40px;
+    font-size: 36px;
     /* font-weight: bold; */
     font-stretch: normal;
     font-style: normal;
@@ -525,7 +532,7 @@ body{
 .footer{
     width: 100%;
     height: 10%;
-    margin: 200px 0 0;
+    margin: 190px 0 0;
     padding-bottom: 45px;
     /* padding: 32px 18px 44px 19px; */
     background-color: #f6f6f6;
@@ -546,7 +553,7 @@ body{
 .We-love-speaking-to {    
     width: 100%;
     height: 190px;  
-    margin: 83px 46px 0px 0px;
+    margin: 96px 46px 0px 0px;
     font-family: Helvetica;
     font-size: 51px;
     font-weight: 500;
@@ -647,7 +654,7 @@ body{
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 140px 380px 180px;
-    margin-top: -10px;
+    margin-top: 0px;
   }
   .Menu-1 {
     width: 100%;
@@ -760,10 +767,11 @@ body{
   }
   .footer-menu-line{
     margin-top: 78px;
-    width: 100%;
+    width: 94%;
     height: 0.01px;
-    background-color: #ccc;
-    border: solid 0.1px #ccc;
+    color: #ccc;
+    /* background-color: #ccc; */
+    border: solid 0.01px #ccc;
   }
   .The-Shopify-Web-Desi-1 {
     grid-row: 3/4;
@@ -790,11 +798,11 @@ body{
 }
 
 .Line-Copy-6 {
-    width: 100%;
+    width: 94%;
     height: 0.01px;
-    margin: 50px 11px 12px 7px;
-    border: solid 0.1px #ccc;
-    background-color: #ccc;
+    margin: 45px 11px 12px 7px;
+    border: solid 0.01px #ccc;
+    /* background-color: #ccc; */
   }
 
   .Powered-by-Shopify {
@@ -817,7 +825,7 @@ body{
     grid-gap: 10px;
     grid-template-columns:repeat(3,100px);
     grid-template-rows: 1;
-    margin-top: 12px;
+    margin-top: 16px;
     margin-bottom: 20px;
     padding-left: 19px;
   }
@@ -857,8 +865,9 @@ body{
   .Line {
     width: 100%;
     height: 0.02px;
-    background-color: #eee;
-    border: solid 0.1px #eee;
+    color:#eee;
+    /* background-color: #eee; */
+    border: solid 0.01px #eee;
   }
 
   /* .Line-1{
@@ -878,10 +887,14 @@ body{
     .size-margin-parent{
         display: flex;
         justify-content: center;
+        padding-left: 20px;
+        
     }
 
     .footer-menu-line{
+      /* padding-left: 300px; */
       margin-top: -30px;
+      width: 100%;
     }
 
     .size-margin{
@@ -953,9 +966,13 @@ body{
         /* margin-top: 10px; */
         display: flex;
         justify-content: center; 
-        align-items: center;    
+        align-items: center;
+        margin-left: -18px;    
      }
-
+     .sunglass-content{
+      margin-right: 10px;
+      
+   }
 
       .jacket-sunglass{ 
         display: flex;
@@ -1034,6 +1051,7 @@ body{
 
       .Line {
         width: 100%;
+        color:#eee;
         margin-top: -20px;
       }
 
@@ -1107,14 +1125,14 @@ body{
         width: 240px;
         height: 250px;
         padding-left: 8px;
-        margin-top: 50px;
+        margin-top: 66px;
     }
     .img-product-3{
         width: 240px;
         height: 250px;
         padding-left: 20 px;
         margin-bottom: -3%;
-        margin: 48px 8px 11px;
+        margin: 64px 8px 11px;
     }
     
 
@@ -1263,7 +1281,7 @@ body{
       }
 
       .Bag-7000{
-        margin: 16px 100px 55px ;
+        margin: 0px 100px 55px ;
         font-family: Arial, Helvetica, sans-serif;
         /* padding-left: 7%; */
         /* margin-top: 0; */
@@ -1281,7 +1299,7 @@ body{
 
       }
       .Bag-7000-1{
-        margin-top: 18px;
+        margin-top: 6px;
         font-size: 14px;
     }
     
@@ -1325,7 +1343,7 @@ body{
     }
 
     .The-Shopify-Web-Desi {
-        width: 569px;
+        width: 578px;
         height: auto;
         margin: 10px 11px 36px 7px;
         font-size: 13px;
@@ -1371,11 +1389,12 @@ body{
       }
 
       .Line-Copy-6 {
-        width: 100%;
+        width: 99%;
         /* height: 1px; */
-        background-color: #ccc;
-        margin: 86px 11px 12px 7px;
-        border: solid 0.1px #ccc;
+        /* background-color: #ccc; */
+        color: #ccc;
+        margin: 86px 11px 12px 08px;
+        /* border: solid 0.1px #ccc; */
       }
 
       .Powered-by-Shopify {
@@ -1457,7 +1476,7 @@ body{
 
       .shop-button{
         margin-top: 6px;
-        margin-left: 20px;
+        margin-left: 40px;
       }
 
       .first-container{
@@ -1507,6 +1526,7 @@ body{
 
       .line-flex-2{
         margin-top: 30px;
+        margin-left: 08px;
         display: flex;
         justify-content: center;
       }
@@ -1527,6 +1547,13 @@ body{
         flex-direction: column;
         max-width: 1050px;        
     }    
+    /* .size-margin-parent{
+      display: flex;
+      justify-content: center;
+      padding-left: 40px;
+      padding-right: 40px;
+      
+  } */
   }
 
 
