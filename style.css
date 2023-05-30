@@ -312,7 +312,7 @@ body{
     /* height: 828px; 
     padding-left: 4px; */
     height: 846px;
-    padding-left: 11px;
+    padding-left: 0px;
     /* border: 6px solid white; */
     background-position:auto;
     background-size: cover;
@@ -1000,6 +1000,7 @@ body{
         height: 345px;    
         border: 0px;  
         object-fit: cover;
+        padding-left: 10px;
         /* object-position: top; */
      }
 
