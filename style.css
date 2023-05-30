@@ -882,7 +882,7 @@ body{
 
   /* RESPONSIVE */
 
-  @media only screen and (min-width: 1024px){
+  @media only screen and (min-width: 995px){
 
     .size-margin-parent{
         display: flex;
