@@ -130,7 +130,7 @@ body{
     justify-content: center;
     /* margin-top: 20px;
     padding-right: 22px; */
-    margin-top: 14px;
+    margin-top: 12px;
     padding-right: 34px;
 
   }
@@ -536,6 +536,7 @@ body{
     padding-bottom: 45px;
     /* padding: 32px 18px 44px 19px; */
     background-color: #f6f6f6;
+    padding-left: 4px;
 }
 
 
@@ -956,7 +957,7 @@ body{
     }
     
     .cart{
-        width: 26px;
+        width: 22px;
         height: 19px;
         padding-top: 1%;
     }
@@ -1152,6 +1153,7 @@ body{
         margin: 120px 0 0 0;
         padding: 32px 0px 44px 0px;
         background-color: #f6f6f6;
+        padding-left: 0px;
     }
 
     .footer{
@@ -1254,6 +1256,7 @@ body{
         grid-gap: 0px;
         margin-top: 73px;
         margin-bottom: 10px;
+        padding-left: 26px;
       }
       .about-us-grid{
         display: grid;
@@ -1513,7 +1516,7 @@ body{
         margin-top: 216px;
         border: solid 3px #fff;
         background-color: rgba(0, 0, 0, 0.24);
-        margin-left:5px;
+        margin-left:7px;
       }
       .button-img-2{
         width: 38px;
