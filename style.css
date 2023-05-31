@@ -568,7 +568,7 @@ body{
 .email-detail-des{
     margin-top: -6px;
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 32px;
     grid-template-columns: 550px auto;
     grid-template-rows: 1fr;  
 }
@@ -754,7 +754,7 @@ body{
 .The-Shopify-Web-Desi {
     grid-row: 2/3;
     width: 100%;
-    height: 100px;
+    height: auto;
     margin: 0px 11px 36px 23px;
     font-family: Helvetica;
     font-size: 33px;
@@ -776,7 +776,7 @@ body{
   .The-Shopify-Web-Desi-1 {
     grid-row: 3/4;
     width: 100%;
-    height: 50px;
+    height: auto;
     margin: -7px 11px 36px 24px;
     font-family: Helvetica;
     font-size: 33px;
@@ -882,7 +882,7 @@ body{
 
   /* RESPONSIVE */
 
-  @media only screen and (min-width: 995px){
+  @media only screen and (min-width: 1024px){
 
     .size-margin-parent{
         display: flex;
@@ -893,7 +893,7 @@ body{
 
     .footer-menu-line{
       /* padding-left: 300px; */
-      margin-top: -32px;
+      margin-top: -31px;
       margin-left: 8px;
       width: 96%;
     }
@@ -917,7 +917,7 @@ body{
         justify-content: center;
         flex-direction: column;
         max-width: 1090px; 
-        padding-left: 42px; 
+        padding-left: 58px; 
     }
      .Hero {
         /* max-width: 1438px; */
@@ -944,20 +944,20 @@ body{
 
     .menu{
         width:12px ;
-        height: 19px;  
+        height: 17px;  
         padding-top: 1%;  
         padding-left: 30px;
     }
     
     .city{
-        width: 75px;
-        height: 50px;
+        width: 60px;
+        height: 45px;
         
     }
     
     .cart{
-        width: 27px;
-        height: 23px;
+        width: 26px;
+        height: 19px;
         padding-top: 1%;
     }
      
@@ -1137,7 +1137,7 @@ body{
         height: 230px;
         /* padding-left: -20 px; */
         margin-bottom: -3%;
-        margin: 54px 8px 11px -20px;
+        margin: 49px 8px 11px -20px;
     }
     
 
@@ -1299,7 +1299,7 @@ body{
       }
 
       .Bag-7000{
-        margin: 4px 100px 55px 67px;
+        margin: 8px 100px 55px 61px;
         font-family: Arial, Helvetica, sans-serif;
         /* padding-left: 7%; */
         /* margin-top: 0; */
@@ -1317,9 +1317,9 @@ body{
 
       }
       .Bag-7000-1{
-        margin-top: 10px;
+        margin-top: 14px;
         font-size: 14px;
-        margin-left: -65px;
+        margin-left: -70px;
     }
     
     
