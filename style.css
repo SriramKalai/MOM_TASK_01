@@ -857,7 +857,7 @@ body{
     justify-content: center;
   }
   .line-flex-2{
-    margin-top: 20px;
+    margin-top: 14px;
     display: flex;
     justify-content: center;
   }
@@ -895,7 +895,7 @@ body{
       /* padding-left: 300px; */
       margin-top: -31px;
       margin-left: 8px;
-      width: 96%;
+      width: 97%;
     }
 
     .size-margin{
@@ -1018,14 +1018,14 @@ body{
     }
 
     .text-shop{
-        margin: -35px 0px 0 26px;
+        margin: -33px 0px 0 23px;
         font-size:18px;
     }
 
     .text-jacket{
-        margin-top: 64px;
+        margin-top: 62px;
         padding-top: 0%;
-        padding-left: 18px;
+        padding-left: 14px;
         font-size: 36px;
     }
 
@@ -1038,7 +1038,7 @@ body{
     }
 
     .text-shop-1{        
-        margin: -35px 0px 0 26px;        
+        margin: -34px 0px 0 23px;        
         font-size: 18px;   
      }
 
@@ -1121,7 +1121,7 @@ body{
     }
     .img-product-1{
         width: 92%;
-        height: 530px;
+        height: 524px;
         /* margin: 48px 0 11px; */
         
     }
@@ -1333,9 +1333,9 @@ body{
     
     
       .Bag-7000-2{
-        margin-top: 10px;
+        margin-top: 8px;
         font-size: 14px;
-        margin-left: -76px;
+        margin-left: -81px;
     }
     
     
@@ -1488,7 +1488,7 @@ body{
     
       .Shop-the-collection {    
         margin: -12% 80px 0px 10px;
-        width: 200px;
+        width: 190px;
         padding-left: 0px;
         font-size: 18px;
 
@@ -1513,28 +1513,29 @@ body{
         margin-top: 216px;
         border: solid 3px #fff;
         background-color: rgba(0, 0, 0, 0.24);
+        margin-left:5px;
       }
       .button-img-2{
-        width: 46px;
+        width: 38px;
         height: 30px;
-        margin-top: 0px;
-        padding-left: 108px;
+        margin-top: 6px;
+        padding-left: 101px;
       }
 
 
       .button-img-3{
-        width: 46px;
+        width: 38px;
         height: 30px;
         margin-top: 10px;
-        padding-left: 96px;
+        padding-left: 100px;
       }
     
       .third_button{
         position:absolute; 
-        width: 192px;
+        width: 191px;
         height: 44px;
         margin-top: 187px;
-        margin-left: 18px;
+        margin-left: 13px;
         border: solid 3px #fff;
         background-color: rgba(0, 0, 0, 0.24);
       }
@@ -1614,5 +1615,21 @@ body{
         margin-bottom: 20px;
         margin-left: 139px;
       }
+
+  }
+  @media only screen and  (min-width: 995px) and (max-width: 1070px)  {
+
+
+  .footer-margin{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1090px; 
+    padding-left: 30px; 
+}
+
+
+
+
 
   }
